@@ -1,0 +1,12 @@
+#include <stdio.h>
+/* Include other headers as needed */
+int main()
+{
+  int a,b,c,d;
+  scanf("%d %d",&a,&b);
+  c=a*b;
+  d=2*(a+b);
+  printf("%d ",c);
+  printf("%d",d);
+    return 0;
+}
